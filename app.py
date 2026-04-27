@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 
 st.title("💰 Loan Approval Prediction App")
-st.caption("Developed by Mandril Sircar")
+st.caption("Developed by Suyatra Goswami")
 st.write("Enter your details below to check if your loan will be approved.")
 
 df = pd.read_csv("loan_data.csv")
